@@ -17,6 +17,7 @@ export const fetchDrivingDistance = async (startLocation: string, endLocation: s
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      // Nice try, this key is disabled
       'X-Goog-Api-Key': 'AIzaSyDWD7Q6Kh7d21CzdR_ZCY42otSgAovcRVU',
       'X-Goog-FieldMask': '*'
     },
